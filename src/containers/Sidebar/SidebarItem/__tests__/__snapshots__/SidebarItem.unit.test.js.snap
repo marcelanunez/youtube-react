@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarItem Renders highlighted SidebarItem with no navigation 1`] = `
+<MenuItem>
+  <div
+    className="sidebar-item "
+  >
+    <span>
+      <Icon
+        as="i"
+        name="fire"
+        size="large"
+      />
+    </span>
+    <span>
+      Trending
+    </span>
+  </div>
+</MenuItem>
+`;
+
+exports[`SidebarItem render non-highlighted SidebarItem that navigates to /feed/trending 1`] = `
+<MenuItem>
+  <div
+    className="sidebar-item "
+  >
+    <span>
+      <Icon
+        as="i"
+        name="fire"
+        size="large"
+      />
+    </span>
+    <span>
+      Trending
+    </span>
+  </div>
+</MenuItem>
+`;
+
+exports[`SidebarItem renders empty SidebarItem 1`] = `
+<MenuItem>
+  <div
+    className="sidebar-item "
+  >
+    <span>
+      <Icon
+        as="i"
+        size="large"
+      />
+    </span>
+    <span />
+  </div>
+</MenuItem>
+`;
+
+exports[`SidebarItem renders highlighted SidebarItem that navigates to /feed/trending 1`] = `
+<MenuItem>
+  <div
+    className="sidebar-item "
+  >
+    <span>
+      <Icon
+        as="i"
+        name="fire"
+        size="large"
+      />
+    </span>
+    <span>
+      Trending
+    </span>
+  </div>
+</MenuItem>
+`;
