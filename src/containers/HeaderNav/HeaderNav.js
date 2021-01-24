@@ -2,13 +2,16 @@ import React, { Component } from 'react';
 import { Menu, Image, MenuItem, Form, Input, Icon } from 'semantic-ui-react';
 import './HeaderNav.scss';
 import logo from '../../assets/images/logo.jpg';
+import { Link } from 'react-router-dom';
 
 class HeaderNav extends Component {
   render() {
     return (
       <Menu borderless className="top-menu" fixed="top">
         <MenuItem header className="logo">
-          <Image src={logo} size="tiny" />
+          <Link to="/">
+            <Image src={logo} size="tiny" />
+          </Link>
         </MenuItem>
         <Menu.Menu className="nav-container">
           <MenuItem className="search-input">
@@ -19,7 +22,7 @@ class HeaderNav extends Component {
             </Form>
           </MenuItem>
         </Menu.Menu>
-        <Menu.Menu position='right'>
+        <Menu.Menu position="right">
           <MenuItem>
             <Icon className="header-icon" name="video camera" size="large" />
           </MenuItem>

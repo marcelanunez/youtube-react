@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { VideoGrid } from '../../components/VideoGrid/VideoGrid';
 import Sidebar from '../Sidebar/Sidebar';
 import './Home.scss';
